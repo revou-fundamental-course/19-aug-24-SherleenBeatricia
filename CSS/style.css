@@ -2,13 +2,40 @@
     border: 5px solid rgb(238, 179, 61);
     display: flex;
     justify-content: flex-end;
+    background-color: rgb(238, 179, 61);
 }
 
-.bar > div {
+.bar > a, .bar > div {
     padding: 10px;
     text-align: center;
     font-size: 14;
     color: aliceblue;
+    border: 2px solid;
     background-color: green;
 }
 
+.intro{
+    display: row flex;
+    margin-left: 10px;
+    background-color: rgb(244, 228, 203);
+}
+
+.greeting{
+    font-size: x-large;
+}
+
+.intro > div{
+    padding: 20px;
+    text-align: center;
+}
+
+.form{
+    border: 10px solid rgb(238, 179, 61);
+    padding: 10px;
+    background-color: rgb(249, 226, 185);
+}
+
+
+.title{
+    font-size: x-large;
+}

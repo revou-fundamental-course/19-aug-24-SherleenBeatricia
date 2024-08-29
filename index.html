@@ -3,15 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Wonderschool</title>
 </head>
 <body>
     <nav class="bar">
         <div class="Home">Home</div>
-        <div class="profile">Our Profile</div>
+        <a href="#intro">Our Profile</a> 
         <div class="Ach">Achievement</div>
-        <div class="Msg">Message Us</div>
+        <a href="#form">Message Us</a> 
+    </nav>
+    <nav class="intro">
+        <div class="greeting"><b>Hi ...., welcome to Wonderschool website </b></div>
+        <div class="about">At Wonderschool, we believe that education is a journey of discovery, creativity, and growth. <br>
+            Founded on the principles of innovation and inclusivity, <br>
+            our school provides a nurturing environment where students are encouraged <br>
+            to explore their passions and reach their full potential. <br></div>
+        <div class="vision"> <b>VISION</b> <br>
+            Wonderschool envisions a world where every child is inspired to become a lifelong learner <br>
+            and a compassionate global citizen. Our vision is to foster a vibrant community where students are not only <br>
+            prepared for academic success but also equipped with the skills and values to thrive in a rapidly changing world.<br></div>
+        <div class="mission"><b>MISSION</b><br>
+            to ignite a lifelong passion for learning by providing a stimulating, inclusive, and supportive educational environment.<br> 
+            We are dedicated to nurturing each student's intellectual curiosity, creativity, and character, preparing them to become <br>
+            thoughtful, innovative, and compassionate global citizens. <br>
+        </div>
+    </nav>
+    <nav class="form">
+        <div class="title"><b>Message Us</b></div>
+        <form action="result" method="GET">
+            <label for="name">Nama :</label>
+            <input id="name" type="text"/>
+            <br>
+            <label for="tgl">Tanggal lahir :</label>
+            <input id="tgl" type="date"/>
+            <br>
+            <label for="name">Jenis kelamin</label> <br>
+            <input type="radio" id="laki" name="jeniskelamin" value="laki">
+            <label for="laki">laki-laki</label>
+            <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan">
+            <label for="perempuan">perempuan</label>
+            <br>
+            <label for="pesan">pesan :</label>
+            <input id="pesan" type="text"/>
+            <br>
+            <input type="submit" value="submit"/>
+        </form>
+        <div class="result"></div>
     </nav>
 </body>
 </html>
