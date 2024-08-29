@@ -1,0 +1,14 @@
+.bar{
+    border: 5px solid rgb(238, 179, 61);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14;
+    color: aliceblue;
+    background-color: green;
+}
+
